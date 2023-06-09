@@ -1,0 +1,42 @@
+{
+  "name": "@rescoped/services",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "15.1.1",
+    "@angular/core": "15.1.1",
+    "@ngrx/component-store": "15.1.0",
+    "rxjs": "7.5.6",
+    "@ngx-pwa/local-storage": "15.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/rescoped-services.mjs",
+  "es2020": "fesm2020/rescoped-services.mjs",
+  "esm2020": "esm2020/rescoped-services.mjs",
+  "fesm2020": "fesm2020/rescoped-services.mjs",
+  "fesm2015": "fesm2015/rescoped-services.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/rescoped-services.mjs",
+      "es2020": "./fesm2020/rescoped-services.mjs",
+      "es2015": "./fesm2015/rescoped-services.mjs",
+      "node": "./fesm2015/rescoped-services.mjs",
+      "default": "./fesm2020/rescoped-services.mjs"
+    },
+    "./theme-store": {
+      "types": "./theme-store/index.d.ts",
+      "esm2020": "./esm2020/theme-store/rescoped-services-theme-store.mjs",
+      "es2020": "./fesm2020/rescoped-services-theme-store.mjs",
+      "es2015": "./fesm2015/rescoped-services-theme-store.mjs",
+      "node": "./fesm2015/rescoped-services-theme-store.mjs",
+      "default": "./fesm2020/rescoped-services-theme-store.mjs"
+    }
+  },
+  "sideEffects": false
+}

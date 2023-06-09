@@ -1,0 +1,39 @@
+{
+  "name": "@rescoped/provider",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "15.1.1",
+    "@angular/core": "15.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/rescoped-provider.mjs",
+  "es2020": "fesm2020/rescoped-provider.mjs",
+  "esm2020": "esm2020/rescoped-provider.mjs",
+  "fesm2020": "fesm2020/rescoped-provider.mjs",
+  "fesm2015": "fesm2015/rescoped-provider.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/rescoped-provider.mjs",
+      "es2020": "./fesm2020/rescoped-provider.mjs",
+      "es2015": "./fesm2015/rescoped-provider.mjs",
+      "node": "./fesm2015/rescoped-provider.mjs",
+      "default": "./fesm2020/rescoped-provider.mjs"
+    },
+    "./factory": {
+      "types": "./factory/index.d.ts",
+      "esm2020": "./esm2020/factory/rescoped-provider-factory.mjs",
+      "es2020": "./fesm2020/rescoped-provider-factory.mjs",
+      "es2015": "./fesm2015/rescoped-provider-factory.mjs",
+      "node": "./fesm2015/rescoped-provider-factory.mjs",
+      "default": "./fesm2020/rescoped-provider-factory.mjs"
+    }
+  },
+  "sideEffects": false
+}

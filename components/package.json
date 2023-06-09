@@ -1,0 +1,66 @@
+{
+  "name": "@rescoped/components",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "15.1.1",
+    "@angular/core": "15.1.1",
+    "@angular/forms": "15.1.1",
+    "rxjs": "7.5.6",
+    "@rescoped/provider": "0.0.1",
+    "@angular/cdk": "15.1.1",
+    "@angular/material": "15.1.1",
+    "ng-table-virtual-scroll": "1.6.0",
+    "deepmerge": "4.2.2",
+    "moment": "2.29.4",
+    "@angular/material-moment-adapter": "15.1.1",
+    "@rescoped/services": "0.0.1",
+    "@angular/platform-browser": "15.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/rescoped-components.mjs",
+  "es2020": "fesm2020/rescoped-components.mjs",
+  "esm2020": "esm2020/rescoped-components.mjs",
+  "fesm2020": "fesm2020/rescoped-components.mjs",
+  "fesm2015": "fesm2015/rescoped-components.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/rescoped-components.mjs",
+      "es2020": "./fesm2020/rescoped-components.mjs",
+      "es2015": "./fesm2015/rescoped-components.mjs",
+      "node": "./fesm2015/rescoped-components.mjs",
+      "default": "./fesm2020/rescoped-components.mjs"
+    },
+    "./datagrid": {
+      "types": "./datagrid/index.d.ts",
+      "esm2020": "./esm2020/datagrid/rescoped-components-datagrid.mjs",
+      "es2020": "./fesm2020/rescoped-components-datagrid.mjs",
+      "es2015": "./fesm2015/rescoped-components-datagrid.mjs",
+      "node": "./fesm2015/rescoped-components-datagrid.mjs",
+      "default": "./fesm2020/rescoped-components-datagrid.mjs"
+    },
+    "./toggle-icon-theme": {
+      "types": "./toggle-icon-theme/index.d.ts",
+      "esm2020": "./esm2020/toggle-icon-theme/rescoped-components-toggle-icon-theme.mjs",
+      "es2020": "./fesm2020/rescoped-components-toggle-icon-theme.mjs",
+      "es2015": "./fesm2015/rescoped-components-toggle-icon-theme.mjs",
+      "node": "./fesm2015/rescoped-components-toggle-icon-theme.mjs",
+      "default": "./fesm2020/rescoped-components-toggle-icon-theme.mjs"
+    },
+    "./toggle-icon": {
+      "types": "./toggle-icon/index.d.ts",
+      "esm2020": "./esm2020/toggle-icon/rescoped-components-toggle-icon.mjs",
+      "es2020": "./fesm2020/rescoped-components-toggle-icon.mjs",
+      "es2015": "./fesm2015/rescoped-components-toggle-icon.mjs",
+      "node": "./fesm2015/rescoped-components-toggle-icon.mjs",
+      "default": "./fesm2020/rescoped-components-toggle-icon.mjs"
+    }
+  },
+  "sideEffects": false
+}
