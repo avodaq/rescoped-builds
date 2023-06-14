@@ -235,7 +235,7 @@ class CdkDatagridDataManager {
         __classPrivateFieldGet(this, _CdkDatagridDataManager_valueChange$, "f").next(valueChange);
     }
     setItemByKeyValue(item, key, value) {
-        if (item[key] === undefined) {
+        if (!Object.getOwnPropertyDescriptor(item, key)) {
             throw new Error(`Invalid key: ${key.toString()} or no default item object is provided`);
         }
         item[key] = value;
