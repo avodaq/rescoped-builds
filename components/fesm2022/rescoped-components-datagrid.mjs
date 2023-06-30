@@ -164,8 +164,13 @@ class CdkDatagridDataManager {
         const groupId = payload.groupId;
         const parent = payload.parent;
         this.#originalData = this.#originalData.filter(item => {
-            return ((!parent && getItemPayload(item).index !== _index) ||
-                (includeChildren && parent && getItemPayload(item).groupId !== groupId));
+            const toNotDeleteItem = (!parent && getItemPayload(item).index !== _index) ||
+                (includeChildren && parent && getItemPayload(item).groupId !== groupId);
+            if (!toNotDeleteItem && typeof getItemPayload(item).groupId !== 'number') {
+                console.error('ItemPayload.groupId is missing when includeChildren on', item);
+                throw new Error('ItemPayload.groupId is required and must be a number!');
+            }
+            return toNotDeleteItem;
         });
         this.#originalData = this.cloneItemAll();
         this.#dataSource.data = this.#originalData;
@@ -1105,7 +1110,7 @@ class CdkDatagridFormControlDirective {
             .subscribe();
     }
     ngOnDestroy() {
-        if (this._formManager.formGroupControls[this.formControlName]) {
+        if (this._storage.item && this._formManager.formGroupControls[this.formControlName]) {
             this._formManager.removeFormControl(this.formControlName);
         }
         this.#unsub$.next();
