@@ -18,5 +18,5 @@ export declare class CdkDatagridStorageDirective<Item, ItemKey extends keyof Ite
     createUuid(): string;
     setValue(value: unknown): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridStorageDirective<any, any, any>, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridStorageDirective<any, any, any>, "[cdk-datagrid-edit]", never, { "item": { "alias": "item"; "required": false; }; "key": { "alias": "key"; "required": false; }; "render": { "alias": "render"; "required": false; }; "actionType": { "alias": "actionType"; "required": false; }; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridStorageDirective<any, any, any>, "[cdk-datagrid-edit]", never, { "item": { "alias": "item"; "required": false; }; "key": { "alias": "key"; "required": false; }; "render": { "alias": "render"; "required": false; }; "actionType": { "alias": "actionType"; "required": false; }; }, {}, never, never, true, never>;
 }

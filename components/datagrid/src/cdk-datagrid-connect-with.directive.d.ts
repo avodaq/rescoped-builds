@@ -7,5 +7,5 @@ export declare class CdkDatagridConnectWithDirective<Item> implements OnInit {
     clickDatagridAction(): void;
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridConnectWithDirective<any>, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridConnectWithDirective<any>, "[connectWithDatagrid]", never, { "connectWithDatagrid": { "alias": "connectWithDatagrid"; "required": false; }; }, { "clickForDatagridItems": "clickForDatagridItems"; }, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridConnectWithDirective<any>, "[connectWithDatagrid]", never, { "connectWithDatagrid": { "alias": "connectWithDatagrid"; "required": false; }; }, { "clickForDatagridItems": "clickForDatagridItems"; }, never, never, true, never>;
 }

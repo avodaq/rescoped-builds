@@ -14,5 +14,5 @@ export declare class CdkDatagridEditDirective implements OnInit, OnDestroy, CdkD
     ngOnInit(): void;
     ngOnDestroy(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridEditDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridEditDirective, "[cdk-datagrid-edit]", never, { "editable": { "alias": "editable"; "required": false; }; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridEditDirective, "[cdk-datagrid-edit]", never, { "editable": { "alias": "editable"; "required": false; }; }, {}, never, never, true, never>;
 }

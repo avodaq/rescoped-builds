@@ -9,7 +9,7 @@ export declare class CdkDatagridFocusInputDirective<Item> implements AfterViewIn
     constructor(_formControl: CdkDatagridFormControlDirective<Item>, _elementRef: ElementRef<HTMLInputElement>, _cdr: ChangeDetectorRef);
     ngAfterViewInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridFocusInputDirective<any>, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridFocusInputDirective<any>, "input[cdkFocusInput]", never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridFocusInputDirective<any>, "input[cdkFocusInput]", never, {}, {}, never, never, true, never>;
 }
 export declare class CdkDatagridFocusComboboxDirective<Item> implements AfterViewInit {
     readonly _formControl: CdkDatagridFormControlDirective<Item>;
@@ -19,5 +19,5 @@ export declare class CdkDatagridFocusComboboxDirective<Item> implements AfterVie
     constructor(_formControl: CdkDatagridFormControlDirective<Item>, _elementRef: ElementRef<HTMLInputElement>, _autoComplete: MatAutocompleteTrigger, _cdr: ChangeDetectorRef);
     ngAfterViewInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridFocusComboboxDirective<any>, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridFocusComboboxDirective<any>, "input[matAutocomplete][cdkFocusCombobox]", never, {}, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridFocusComboboxDirective<any>, "input[matAutocomplete][cdkFocusCombobox]", never, {}, {}, never, never, true, never>;
 }

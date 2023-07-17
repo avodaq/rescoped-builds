@@ -16,6 +16,6 @@ export declare class CdkDatagridCollapseComponent<Item> {
     get getActionType(): import("./cdk-datagrid-data.manager").ItemActionType;
     collapseChanged(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridCollapseComponent<any>, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<CdkDatagridCollapseComponent<any>, "cdk-datagrid-collapse", never, {}, { "collapseChange": "collapseChange"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<CdkDatagridCollapseComponent<any>, "cdk-datagrid-collapse", never, {}, { "collapseChange": "collapseChange"; }, never, never, true, never>;
 }
 export {};

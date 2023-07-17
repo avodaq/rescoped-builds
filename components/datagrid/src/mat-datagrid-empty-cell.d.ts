@@ -15,5 +15,5 @@ export declare class MatDatagridEmptyCellComponent<Item> implements AfterViewIni
     inputChange: EventEmitter<string>;
     ngAfterViewInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<MatDatagridEmptyCellComponent<any>, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridEmptyCellComponent<any>, "mat-datagrid-empty-cell", never, {}, { "inputChange": "inputChange"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridEmptyCellComponent<any>, "mat-datagrid-empty-cell", never, {}, { "inputChange": "inputChange"; }, never, never, true, never>;
 }

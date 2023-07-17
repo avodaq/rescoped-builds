@@ -5,5 +5,5 @@ export declare class MatDatagridCollapseComponent<Item> extends CdkDatagridColla
     collapsibleClass: boolean;
     get collapsedClass(): boolean | null;
     static ɵfac: i0.ɵɵFactoryDeclaration<MatDatagridCollapseComponent<any>, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridCollapseComponent<any>, "mat-datagrid-collapse", never, {}, {}, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridCollapseComponent<any>, "mat-datagrid-collapse", never, {}, {}, never, never, true, never>;
 }

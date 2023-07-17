@@ -29,5 +29,5 @@ export declare class ToggleIconComponent {
     get checked(): boolean;
     _toggleChange(event: MatSlideToggleChange): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<ToggleIconComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<ToggleIconComponent, "avo-toggle-icon", never, { "color": { "alias": "color"; "required": false; }; "checkedIcon": { "alias": "checkedIcon"; "required": false; }; "unCheckedIcon": { "alias": "unCheckedIcon"; "required": false; }; "checked": { "alias": "checked"; "required": false; }; }, { "changed": "changed"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<ToggleIconComponent, "avo-toggle-icon", never, { "color": { "alias": "color"; "required": false; }; "checkedIcon": { "alias": "checkedIcon"; "required": false; }; "unCheckedIcon": { "alias": "unCheckedIcon"; "required": false; }; "checked": { "alias": "checked"; "required": false; }; }, { "changed": "changed"; }, never, never, true, never>;
 }

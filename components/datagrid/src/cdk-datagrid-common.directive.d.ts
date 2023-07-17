@@ -5,5 +5,5 @@ export declare class CdkDatagridCommonDirective {
     get autocomplete(): boolean;
     set autocomplete(value: boolean);
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridCommonDirective, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridCommonDirective, "[cdk-datagrid-edit]", never, { "type": { "alias": "type"; "required": false; }; "autocomplete": { "alias": "autocomplete"; "required": false; }; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridCommonDirective, "[cdk-datagrid-edit]", never, { "type": { "alias": "type"; "required": false; }; "autocomplete": { "alias": "autocomplete"; "required": false; }; }, {}, never, never, true, never>;
 }

@@ -21,5 +21,5 @@ export declare class MatDatagridComboboxComponent<Item, Options> {
     selectionAddIconColor: ThemePalette;
     get autocomplete(): string;
     static ɵfac: i0.ɵɵFactoryDeclaration<MatDatagridComboboxComponent<any, any>, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridComboboxComponent<any, any>, "mat-datagrid-combobox", never, { "options": { "alias": "options"; "required": false; }; "selectionAdd": { "alias": "selectionAdd"; "required": false; }; "selectionAddIcon": { "alias": "selectionAddIcon"; "required": false; }; "selectionAddIconColor": { "alias": "selectionAddIconColor"; "required": false; }; "autocomplete": { "alias": "autocomplete"; "required": false; }; }, { "selectionChange": "selectionChange"; "selectionAdded": "selectionAdded"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridComboboxComponent<any, any>, "mat-datagrid-combobox", never, { "options": { "alias": "options"; "required": false; }; "selectionAdd": { "alias": "selectionAdd"; "required": false; }; "selectionAddIcon": { "alias": "selectionAddIcon"; "required": false; }; "selectionAddIconColor": { "alias": "selectionAddIconColor"; "required": false; }; "autocomplete": { "alias": "autocomplete"; "required": false; }; }, { "selectionChange": "selectionChange"; "selectionAdded": "selectionAdded"; }, never, never, true, never>;
 }

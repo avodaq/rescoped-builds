@@ -15,5 +15,5 @@ export declare class ToggleIconThemeComponent {
      */
     _changed(changed: boolean): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<ToggleIconThemeComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<ToggleIconThemeComponent, "avo-toggle-icon-theme", never, { "color": { "alias": "color"; "required": false; }; }, {}, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<ToggleIconThemeComponent, "avo-toggle-icon-theme", never, { "color": { "alias": "color"; "required": false; }; }, {}, never, never, true, never>;
 }

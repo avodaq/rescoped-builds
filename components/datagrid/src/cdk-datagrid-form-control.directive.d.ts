@@ -32,5 +32,5 @@ export declare class CdkDatagridFormControlDirective<Item> implements OnInit, On
     ngOnInit(): void;
     ngOnDestroy(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<CdkDatagridFormControlDirective<any>, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridFormControlDirective<any>, "[cdk-datagrid-edit]", never, { "validator": { "alias": "validator"; "required": false; }; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<CdkDatagridFormControlDirective<any>, "[cdk-datagrid-edit]", never, { "validator": { "alias": "validator"; "required": false; }; }, {}, never, never, true, never>;
 }

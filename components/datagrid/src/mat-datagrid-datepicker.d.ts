@@ -15,5 +15,5 @@ export declare class MatDatagridDatepickerComponent<Item> {
     hostClass: boolean;
     dateChange: EventEmitter<string | Date>;
     static ɵfac: i0.ɵɵFactoryDeclaration<MatDatagridDatepickerComponent<any>, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridDatepickerComponent<any>, "mat-datagrid-datepicker", never, {}, { "dateChange": "dateChange"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridDatepickerComponent<any>, "mat-datagrid-datepicker", never, {}, { "dateChange": "dateChange"; }, never, never, true, never>;
 }

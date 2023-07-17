@@ -13,5 +13,5 @@ export declare class TypeSafeMatCellDefDirective<T> {
         odd: number;
     };
     static ɵfac: i0.ɵɵFactoryDeclaration<TypeSafeMatCellDefDirective<any>, never>;
-    static ɵdir: i0.ɵɵDirectiveDeclaration<TypeSafeMatCellDefDirective<any>, "[matCellDef],[cdkCellDef]", never, { "matCellDefType": { "alias": "matCellDefType"; "required": false; }; }, {}, never, never, false, never>;
+    static ɵdir: i0.ɵɵDirectiveDeclaration<TypeSafeMatCellDefDirective<any>, "[matCellDef],[cdkCellDef]", never, { "matCellDefType": { "alias": "matCellDefType"; "required": false; }; }, {}, never, never, true, never>;
 }

@@ -25,7 +25,7 @@ export declare class MatDatagridInputComponent<Item> implements OnInit {
     inputChange: EventEmitter<string>;
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<MatDatagridInputComponent<any>, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridInputComponent<any>, "mat-datagrid-input", ["matDatagridInput"], {}, { "inputChange": "inputChange"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridInputComponent<any>, "mat-datagrid-input", ["matDatagridInput"], {}, { "inputChange": "inputChange"; }, never, never, true, never>;
 }
 export declare const MAT_FORMAT_INPUT: InjectionToken<DatagridInputFormats<unknown>>;
 export declare const MAT_NUMBER_INPUT: InjectionToken<DatagridInputFormats<unknown>>;
