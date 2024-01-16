@@ -2,22 +2,11 @@
   "name": "@rescoped/components",
   "version": "0.0.1",
   "peerDependencies": {
-    "@angular/common": "16.0.6",
-    "@angular/core": "16.0.6",
-    "@angular/forms": "16.0.6",
-    "rxjs": "7.8.1",
-    "@rescoped/provider": "0.0.1",
-    "@angular/cdk": "16.0.4",
-    "@angular/material": "16.0.4",
-    "ng-table-virtual-scroll": "1.6.0",
-    "deepmerge": "4.3.1",
-    "moment": "2.29.4",
-    "@angular/material-moment-adapter": "16.0.4",
-    "@rescoped/services": "0.0.1",
-    "@angular/platform-browser": "16.0.6"
+    "@rescoped/provider": "file:../provider",
+    "@rescoped/services": "file:../services"
   },
   "dependencies": {
-    "tslib": "^2.4.1"
+    "tslib": "^2.3.0"
   },
   "module": "fesm2022/rescoped-components.mjs",
   "typings": "index.d.ts",

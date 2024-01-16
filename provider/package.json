@@ -1,13 +1,7 @@
 {
   "name": "@rescoped/provider",
   "version": "0.0.1",
-  "peerDependencies": {
-    "@angular/common": "16.0.6",
-    "@angular/core": "16.0.6"
-  },
-  "dependencies": {
-    "tslib": "^2.4.1"
-  },
+  "peerDependencies": {},
   "module": "fesm2022/rescoped-provider.mjs",
   "typings": "index.d.ts",
   "exports": {
@@ -27,5 +21,8 @@
       "default": "./fesm2022/rescoped-provider-factory.mjs"
     }
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
 }

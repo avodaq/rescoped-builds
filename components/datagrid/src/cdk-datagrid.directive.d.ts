@@ -31,11 +31,11 @@ export declare class CdkDatagridDirective<Item> implements OnInit, OnDestroy {
     set itemRules(rules: GlobalRules<Item>);
     click(e: MouseEvent): void;
     tab(e: KeyboardEvent): void;
-    esc(e: KeyboardEvent): void;
-    arrowKey(e: KeyboardEvent): void;
-    enter(e: KeyboardEvent): void;
-    shiftEnter(e: KeyboardEvent): void;
-    shiftTab(e: KeyboardEvent): void;
+    esc(_e: KeyboardEvent): void;
+    arrowKey(_e: KeyboardEvent): void;
+    enter(_e: KeyboardEvent): void;
+    shiftEnter(_e: KeyboardEvent): void;
+    shiftTab(_e: KeyboardEvent): void;
     setValue<ItemKey extends keyof Item>(key: ItemKey, value: Item[ItemKey], actionType: ItemActionType, where?: 'dataSource' | 'formSource'): void;
     setValueChange(valueChange: ValueChange | null): void;
     /**

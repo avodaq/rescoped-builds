@@ -6,7 +6,7 @@ import { CdkDatagridCommonDirective } from './cdk-datagrid-common.directive';
 import { CdkDatagridStorageDirective } from './cdk-datagrid-storage.directive';
 import { ThemePalette } from '@angular/material/core';
 import * as i0 from "@angular/core";
-export declare class MatDatagridComboboxComponent<Item, Options> {
+export declare class MatDatagridComboboxComponent<Item> {
     readonly _common: CdkDatagridCommonDirective;
     readonly _edit: CdkDatagridEditDirective;
     readonly _formControl: CdkDatagridFormControlDirective<Item>;
@@ -20,6 +20,6 @@ export declare class MatDatagridComboboxComponent<Item, Options> {
     selectionAddIcon: string;
     selectionAddIconColor: ThemePalette;
     get autocomplete(): string;
-    static ɵfac: i0.ɵɵFactoryDeclaration<MatDatagridComboboxComponent<any, any>, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridComboboxComponent<any, any>, "mat-datagrid-combobox", never, { "options": { "alias": "options"; "required": false; }; "selectionAdd": { "alias": "selectionAdd"; "required": false; }; "selectionAddIcon": { "alias": "selectionAddIcon"; "required": false; }; "selectionAddIconColor": { "alias": "selectionAddIconColor"; "required": false; }; "autocomplete": { "alias": "autocomplete"; "required": false; }; }, { "selectionChange": "selectionChange"; "selectionAdded": "selectionAdded"; }, never, never, true, never>;
+    static ɵfac: i0.ɵɵFactoryDeclaration<MatDatagridComboboxComponent<any>, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<MatDatagridComboboxComponent<any>, "mat-datagrid-combobox", never, { "options": { "alias": "options"; "required": false; }; "selectionAdd": { "alias": "selectionAdd"; "required": false; }; "selectionAddIcon": { "alias": "selectionAddIcon"; "required": false; }; "selectionAddIconColor": { "alias": "selectionAddIconColor"; "required": false; }; "autocomplete": { "alias": "autocomplete"; "required": false; }; }, { "selectionChange": "selectionChange"; "selectionAdded": "selectionAdded"; }, never, never, true, never>;
 }

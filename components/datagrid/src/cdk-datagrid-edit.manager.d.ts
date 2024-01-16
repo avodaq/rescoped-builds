@@ -10,7 +10,7 @@ export declare const CDK_EDIT_TAG_CLASS = "cdk-datagrid-edit";
  * The CDK_EDIT_CSS_CLASS is used to query the proper html dom node reference in order to get the
  * directive instance of CdkDatagridEdit interface.
  */
-export declare const CDK_EDIT_CSS_CLASS: string;
+export declare const CDK_EDIT_CSS_CLASS = ".cdk-datagrid-edit";
 /**
  * The CdkMapEdit stores a collection of html dom node references and directive instances of
  * CdkDatagridEdit.
