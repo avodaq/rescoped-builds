@@ -27,10 +27,10 @@ export class CdkDatagridDateAdapter {
             return '';
         return this._dateAdapter.format(this.matDateClass(date), format);
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.9", ngImport: i0, type: CdkDatagridDateAdapter, deps: [{ token: MAT_DATE_CLASS }, { token: MAT_DATE_FORMATS }, { token: MAT_FORMAT_DATE_INPUT }, { token: i1.DateAdapter }], target: i0.ɵɵFactoryTarget.Injectable }); }
-    static { this.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "17.0.9", ngImport: i0, type: CdkDatagridDateAdapter }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "18.0.7", ngImport: i0, type: CdkDatagridDateAdapter, deps: [{ token: MAT_DATE_CLASS }, { token: MAT_DATE_FORMATS }, { token: MAT_FORMAT_DATE_INPUT }, { token: i1.DateAdapter }], target: i0.ɵɵFactoryTarget.Injectable }); }
+    static { this.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "18.0.7", ngImport: i0, type: CdkDatagridDateAdapter }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.9", ngImport: i0, type: CdkDatagridDateAdapter, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "18.0.7", ngImport: i0, type: CdkDatagridDateAdapter, decorators: [{
             type: Injectable
         }], ctorParameters: () => [{ type: undefined, decorators: [{
                     type: Inject,
